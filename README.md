@@ -1,27 +1,50 @@
 # GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+Angular CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+TypeScript
 
-## Build
+HTML 5
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+CSS
 
-## Running unit tests
+Javascript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+##### Setup Instructions and Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+clone the repository
+open the project on your favourite editor
+open project on live server
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch (git checkout -b improve-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve feature')
+- Push to the branch (git push origin improve-feature)
+- Create a Pull Request
+
+
+## Known Bugs
+
+If you find a bug (the website couldn't handle the query and or gave undesired results), kindly open an issue here by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
+
+### License
+
+*MIT*
+Copyright (c) 2021 **George Kamakia Macharia**
+
