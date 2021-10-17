@@ -8,7 +8,7 @@ import { SearchComponent } from './search/search.component';
 import { UserComponent } from './user/user.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HttpClientModule } from '@angular/common/http';
-import { SearchService } from '../app/services/search/search.service
+import { SearchService } from '/home/geroge/Desktop/Git-search/src/app/services/search/search.service';
 
 
 @NgModule({

@@ -1,19 +1,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
-import { User } from './user';
-import { Repo } from './repo';
+import { User } from '/home/geroge/Desktop/Git-search/src/app/user';
+import { Repository } from '/home/geroge/Desktop/Git-search/src/app/repository';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SearchService {
   user!:User;
-  repos!:Repo;
+  repos!:Repository;
 
   constructor(private http:HttpClient) { 
     this.user = new User("",0,0,0,"","","");
-    this.repos = new Repo("","","","",new Date());
+    this.repos = new Repository("","","","",new Date());
   }
 
   getProfile(username:string){
