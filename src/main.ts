@@ -1,12 +1,26 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+i
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import { SearchComponent } from './search.component';
 
-if (environment.production) {
-  enableProdMode();
-}
+describe('SearchComponent', () => {
+  let component: SearchComponent;
+  let fixture: ComponentFixture<SearchComponent>;
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ SearchComponent ]
+    })
+    .compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(SearchComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

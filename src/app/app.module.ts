@@ -1,22 +1,30 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { UserComponent } from './user/user.component';
+import { DateCountPipe } from './date-count.pipe';
+import { HttpClientModule } from '@angular/common/http';
+import { SearchService } from '../app/services/search/search.service
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    UserComponent
+    UserComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
