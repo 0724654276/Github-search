@@ -45,6 +45,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ### License
 
-*MIT*
+*/home/geroge/Desktop/Git-search/src/app/license*
 Copyright (c) 2021 **George Kamakia Macharia**
 
